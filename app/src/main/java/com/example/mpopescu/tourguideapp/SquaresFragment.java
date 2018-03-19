@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * Created by MPopescu on 18-Mar-18.
@@ -26,6 +29,12 @@ public class SquaresFragment extends Fragment {
 
         View returnView = inflater.inflate(R.layout.places_list, container, false);
 
-        return ;
+        ArrayList<Place> places = new ArrayList<>();
+        places.add(new Place("about", "description"));
+
+        ListView listView = returnView.findViewById(R.id.places_list);
+        listView.setAdapter(new PlaceAdapter(getActivity(), places));
+
+        return returnView;
     }
 }
