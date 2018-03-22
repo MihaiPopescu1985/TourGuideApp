@@ -1,8 +1,5 @@
 package com.example.mpopescu.tourguideapp;
 
-/**
- * Created by MPopescu on 18-Mar-18.
- */
 
 public class Place {
 

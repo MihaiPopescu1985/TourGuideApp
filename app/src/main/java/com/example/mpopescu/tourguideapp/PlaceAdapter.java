@@ -10,37 +10,17 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Mihai on 19.03.2018.
- */
 
 public class PlaceAdapter extends ArrayAdapter<Place> {
+
     public PlaceAdapter(Activity activity, ArrayList<Place> places) {
 
         super(activity, 0, places);
     }
-
-    /**
-     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-
-
-     if (listView == null){
-     listView = LayoutInflater.from(getContext()).inflate(
-     R.layout.songs, parent, false);
-     }
-     Song currentSong = getItem(position);
-
-     TextView textView = listView.findViewById(R.id.song_title);
-     textView.setText(currentSong.getTitle());
-
-     textView = listView.findViewById(R.id.song_author);
-     textView.setText(currentSong.getAuthor());
-
-     return listView;
-     */
 
     @NonNull
     @Override
@@ -53,7 +33,17 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
                     inflate(R.layout.place, parent, false);
         }
         Place currentPlace = getItem(position);
-        ImageView imageView = returnedListView.findViewById(R.id.pl)
+
+        if (currentPlace != null) {
+            ImageView imageView = returnedListView.findViewById(R.id.place_image);
+            imageView.setImageResource(currentPlace.getResourceId());
+
+            TextView textView = returnedListView.findViewById(R.id.place_about);
+            textView.setText(currentPlace.getAbout());
+
+            textView = returnedListView.findViewById(R.id.place_description);
+            textView.setText(currentPlace.getDescription());
+        }
 
         return returnedListView;
     }

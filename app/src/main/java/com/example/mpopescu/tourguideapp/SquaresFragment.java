@@ -10,9 +10,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by MPopescu on 18-Mar-18.
- */
 
 public class SquaresFragment extends Fragment {
 
@@ -30,6 +27,8 @@ public class SquaresFragment extends Fragment {
         View returnView = inflater.inflate(R.layout.places_list, container, false);
 
         ArrayList<Place> places = new ArrayList<>();
+
+        // To be edited
         places.add(new Place("about", "description"));
 
         ListView listView = returnView.findViewById(R.id.places_list);
