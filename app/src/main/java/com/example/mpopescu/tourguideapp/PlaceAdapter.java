@@ -27,7 +27,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View returnedListView = convertView;
-        if (returnedListView == null){
+        if (returnedListView == null) {
 
             returnedListView = LayoutInflater.from(getContext()).
                     inflate(R.layout.place, parent, false);
@@ -36,7 +36,8 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         if (currentPlace != null) {
             ImageView imageView = returnedListView.findViewById(R.id.place_image);
-            imageView.setImageResource(currentPlace.getResourceId());
+            if (currentPlace.getResourceId() != -1)
+                imageView.setImageResource(currentPlace.getResourceId());
 
             TextView textView = returnedListView.findViewById(R.id.place_about);
             textView.setText(currentPlace.getAbout());

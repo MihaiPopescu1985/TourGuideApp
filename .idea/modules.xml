@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TourGuideApp.iml" filepath="$PROJECT_DIR$/.idea/TourGuideApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TourGuideApp.iml" filepath="$PROJECT_DIR$/TourGuideApp.iml" />
+      <module fileurl="file://C:\Users\MPopescu\AndroidStudioProjects\TourGuideApp\.idea\TourGuideApp.iml" filepath="C:\Users\MPopescu\AndroidStudioProjects\TourGuideApp\.idea\TourGuideApp.iml" />
       <module fileurl="file://C:\Users\Mihai\Documents\MusicStructure\TourGuideApp\TourGuideApp.iml" filepath="C:\Users\Mihai\Documents\MusicStructure\TourGuideApp\TourGuideApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
