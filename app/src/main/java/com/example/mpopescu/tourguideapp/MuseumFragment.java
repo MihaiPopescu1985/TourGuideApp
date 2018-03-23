@@ -29,7 +29,16 @@ public class MuseumFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<>();
 
         // To be edited
-        places.add(new Place("about", "description"));
+        places.add(new Place("Piata Unirii Nr. 1, Timisoara, Romania",
+                "http://www.muzeuldeartatm.ro/en/despre-muzeul-de-arta-timisoara/",
+                R.drawable.muzeul_de_arta));
+
+        places.add(new Place("Strada Oituz nr. 2B, Timisoara, Romania",
+                "The Banat Museum occupies the entire space offered by Huniade Castle" +
+                        " – the oldest documented building in Timişoara." +
+                        " It was built by King Charles Robert of Anjou between" +
+                        " 1307 and 1315 as a royal residence, also having military functions.",
+                R.drawable.banat_museum));
 
         ListView listView = returnView.findViewById(R.id.places_list);
         listView.setAdapter(new PlaceAdapter(getActivity(), places));
