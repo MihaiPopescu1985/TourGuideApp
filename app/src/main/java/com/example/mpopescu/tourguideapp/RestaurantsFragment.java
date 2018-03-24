@@ -28,8 +28,15 @@ public class RestaurantsFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
 
-        // To be edited
-        places.add(new Place("about", "description"));
+        places.add(new Place("Splaiul Nistrului nr 1, Timisoara , Romania",
+                "Cuisine: Mediterranean, European, Fusion," +
+                        " Vegetarian Friendly, Vegan Options, Gluten Free Options",
+                R.drawable.restaurant_merlot));
+
+        places.add(new Place("Strada Craiova nr. 1, Timisoara, Romania",
+                "Cuisine  Seafood, Mediterranean, European, Soups," +
+                        " Vegetarian Friendly, Gluten Free Options",
+                R.drawable.restaurant_sabres));
 
         ListView listView = returnView.findViewById(R.id.places_list);
         listView.setAdapter(new PlaceAdapter(getActivity(), places));
