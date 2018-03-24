@@ -4,26 +4,23 @@ package com.example.mpopescu.tourguideapp;
 public class Place {
 
     private int mResourceId;
-    private String mAdout;
+    private String mTitle;
     private String mDescription;
+    private String mPosition;
 
-    public Place(String about, String description, int resourceId){
+    public Place(String title, String description, String position, int resourceId){
 
-        mAdout = about;
+        mTitle = title;
         mDescription = description;
         mResourceId = resourceId;
-    }
-
-    public Place(String about, String description){
-
-        mResourceId = -1;
-        mDescription = description;
-        mAdout = about;
+        mPosition = position;
     }
 
     public int getResourceId() {return mResourceId;}
 
-    public String getAbout() {return mAdout;}
+    public String getTitle() {return mTitle;}
 
     public String getDescription() {return mDescription;}
+
+    public String getPosition() {return mPosition;}
 }

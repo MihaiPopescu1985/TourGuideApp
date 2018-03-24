@@ -1,4 +1,36 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
     <string name="place_image">place image</string>
+    <string name="hotel_timisoara">Hotel Timisoara</string>
+    <string name="hotel_timisoara_description">Hotel Timisoara is situated right in the centre of Timisoara, overlooking the Opera Square and within walking distance from the main landmarks of the city. It offers spacious and elegant accommodation with air conditioning and free WiFi internet access in all areas.</string>
+    <string name="hotel_timisoara_position">1–3 Marasesti, Timişoara, Romania</string>
+    <string name="hotel_iosefin">Hotel Iosefin Residence</string>
+    <string name="hotel_iosefin_description">Located close to the Sinaia Church in Timisoara, Hotel Iosefin Residence can be easily accessed by public transport. It offers elegant and classically decorated apartments and free internet access. The Iosefin Residence is near Timisoara\'s centre with museums, parks and a shopping centre.</string>
+    <string name="hotel_iosefin_position">Piata Mocsonyi-Sinaia, nr. 8, Timişoara, Romania</string>
+    <string name="hotel_continental">Hotel Continental</string>
+    <string name="hotel_continental_description">Located in the heart of Timisoara, Continental Hotel is next to the Civic Park and only a few minutes\' walk from the historical Unirii Square and the Bastion. Housed in one of the tallest buildings in the city, all rooms offer impressive views. The hotel boasts an in-house night club, spa and wellness centre, and a casino.</string>
+    <string name="hotel_continental_position">B-dul Revolutiei 1989, Nr 2A, Timişoara, Romania</string>
+    <string name="art_museum">Muzeul de arta</string>
+    <string name="art_museum_description">http://www.muzeuldeartatm.ro/en/despre-muzeul-de-arta-timisoara/</string>
+    <string name="art_museum_position">Piata Unirii Nr. 1, Timisoara, Romania</string>
+    <string name="banat_museum">Muzeul Banatului</string>
+    <string name="banat_museum_description">The Banat Museum occupies the entire space offered by Huniade Castle – the oldest documented building in Timişoara. It was built by King Charles Robert of Anjou between 1307 and 1315 as a royal residence, also having military functions.</string>
+    <string name="banat_museum_position">Strada Oituz nr. 2B, Timisoara, Romania</string>
+    <string name="restaurant_merlot">Restaurant Merlot</string>
+    <string name="restaurant_merlot_description">Cuisine: Mediterranean, European, Fusion, Vegetarian Friendly, Vegan Options, Gluten Free Options</string>
+    <string name="restaurant_merlot_positon">Splaiul Nistrului nr 1, Timisoara , Romania</string>
+    <string name="restaurant_sabres">Restaurant Sabres</string>
+    <string name="restaurant_sabres_description">Cuisine  Seafood, Mediterranean, European, Soups, Vegetarian Friendly, Gluten Free Options</string>
+    <string name="restaurant_sabres_position">Strada Craiova nr. 1, Timisoara, Romania</string>
+    <string name="iulius_mall">Iulius Mall</string>
+    <string name="iulius_mall_description">Iulius Mall Timișoara is a shopping mall located in Timișoara, Romania. At the time of its completion it was the first shopping mall in Timișoara. It\'s one of the biggest shopping centers in Romania.</string>
+    <string name="iulius_mall_position">Strada Aristide Demetriade 1, Timișoara, Romania</string>
+    <string name="shopping_city">Shopping City</string>
+    <string name="shopping_city_description">Shopping City Timișoara is a shopping mall located in Timișoara, Romania. At the time of its completion it was the second shopping mall in Timișoara.</string>
+    <string name="shopping_city_position">Calea Șagului 100, Timișoara, Romania</string>
+    <string name="victory_square">Piata Victoriei</string>
+    <string name="victory_square_description">Victoriei Square, formerly Opera Square, is one of the central squares of Timisoara, the place where Timisoara was proclaimed on December 20, 1989, the first free city in Romania.</string>
+    <string name="general_square_position">Timisoara, Romania</string>
+    <string name="union_square">Piata Unirii</string>
+    <string name="union_square_description">Union Square is the oldest market in Timisoara, decorated in Baroque style. Throughout its history, the market has also been called Hauptplatz, Domplatz and Losonczy Square (after the name of Stefan Losonczy, killed in 1552 when the fortress was conquered by the Turks). The name of Unirii Square was given to him in 1919, because the Romanian troops that entered Timisoara stopped here.</string>
 </resources>

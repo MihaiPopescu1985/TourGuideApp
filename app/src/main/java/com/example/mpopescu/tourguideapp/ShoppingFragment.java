@@ -29,15 +29,14 @@ public class ShoppingFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<>();
 
         // To be edited
-        places.add(new Place("Strada Aristide Demetriade 1, Timișoara, Romania",
-                "Iulius Mall Timișoara is a shopping mall located in Timișoara, Romania." +
-                        " At the time of its completion it was the first shopping mall in Timișoara." +
-                        " It's one of the biggest shopping centers in Romania.",
+        places.add(new Place(getString(R.string.iulius_mall),
+                getString(R.string.iulius_mall_description),
+                getString(R.string.iulius_mall_position),
                 R.drawable.mall_iulius));
 
-        places.add(new Place("Calea Șagului 100, Timișoara, Romania",
-                "Shopping City Timișoara is a shopping mall located in Timișoara, Romania." +
-                        " At the time of its completion it was the second shopping mall in Timișoara.",
+        places.add(new Place(getString(R.string.shopping_city),
+                getString(R.string.shopping_city_description),
+                getString(R.string.shopping_city_position),
                 R.drawable.mall_shopping_city));
 
         ListView listView = returnView.findViewById(R.id.places_list);

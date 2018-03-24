@@ -3,22 +3,52 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/place_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/place_image" />
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/place_image"
+
+
+        android:src="@drawable/hotel_continental" />
 
     <TextView
-        android:id="@+id/place_about"
+        android:id="@+id/place_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+
+        android:textStyle="bold"
+        android:textSize="28sp"
+
+        android:text="@string/hotel_continental"/>
+
+    <TextView
+        android:id="@+id/place_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+
+        android:text="@string/hotel_continental_position"/>
 
     <TextView
         android:id="@+id/place_description"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+
+        android:textAlignment="center"
+        android:text="@string/hotel_continental_description"/>
 
 </LinearLayout>
