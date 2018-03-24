@@ -24,11 +24,11 @@ public class ShoppingFragment extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
+        //the view to be returned
         View returnView = inflater.inflate(R.layout.places_list, container, false);
-
         ArrayList<Place> places = new ArrayList<>();
 
-        // To be edited
+        //populating the array
         places.add(new Place(getString(R.string.iulius_mall),
                 getString(R.string.iulius_mall_description),
                 getString(R.string.iulius_mall_position),
@@ -39,6 +39,7 @@ public class ShoppingFragment extends Fragment {
                 getString(R.string.shopping_city_position),
                 R.drawable.mall_shopping_city));
 
+        //getting the ListView from xml file
         ListView listView = returnView.findViewById(R.id.places_list);
         listView.setAdapter(new PlaceAdapter(getActivity(), places));
 

@@ -24,11 +24,11 @@ public class MuseumFragment extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
+        //the view to be returned
         View returnView = inflater.inflate(R.layout.places_list, container, false);
-
         ArrayList<Place> places = new ArrayList<>();
 
-        // To be edited
+        //populating the array
         places.add(new Place(getString(R.string.art_museum),
                 getString(R.string.art_museum_description),
                 getString(R.string.art_museum_position),
@@ -39,6 +39,7 @@ public class MuseumFragment extends Fragment {
                 getString(R.string.banat_museum_position),
                 R.drawable.banat_museum));
 
+        //getting the ListView from xml file
         ListView listView = returnView.findViewById(R.id.places_list);
         listView.setAdapter(new PlaceAdapter(getActivity(), places));
 

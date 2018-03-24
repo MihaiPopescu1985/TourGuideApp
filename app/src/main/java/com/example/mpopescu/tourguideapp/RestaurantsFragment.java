@@ -24,10 +24,11 @@ public class RestaurantsFragment extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
+        //the view to be returned
         View returnView = inflater.inflate(R.layout.places_list, container, false);
-
         ArrayList<Place> places = new ArrayList<>();
 
+        //populating the array
         places.add(new Place(getString(R.string.restaurant_merlot),
                 getString(R.string.restaurant_merlot_description),
                 getString(R.string.restaurant_merlot_positon),
@@ -38,6 +39,7 @@ public class RestaurantsFragment extends Fragment {
                 getString(R.string.restaurant_sabres_position),
                 R.drawable.restaurant_sabres));
 
+        //getting the ListView from xml file
         ListView listView = returnView.findViewById(R.id.places_list);
         listView.setAdapter(new PlaceAdapter(getActivity(), places));
 

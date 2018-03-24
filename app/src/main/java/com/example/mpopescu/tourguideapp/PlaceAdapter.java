@@ -32,8 +32,10 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             returnedListView = LayoutInflater.from(getContext()).
                     inflate(R.layout.place, parent, false);
         }
+        //getting the current Place
         Place currentPlace = getItem(position);
 
+        //setting the image, title, position and description of current place
         if (currentPlace != null) {
             ImageView imageView = returnedListView.findViewById(R.id.place_image);
             if (currentPlace.getResourceId() != -1)
